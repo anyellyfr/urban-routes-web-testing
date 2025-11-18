@@ -24,6 +24,28 @@ The goal of this project was to evaluate its functionality, usability, and UI co
 
 ## 🗂 Project Structure
 
+urban-routes-web-testing/
+│
+├── README.md
+├── test-cases/
+│ ├── test-cases.xlsx
+│ └── regression-suite.xlsx
+│
+├── checklists/
+│ └── ui-checklist.xlsx
+│
+├── bug-reports/
+│ ├── bug-report-001.pdf
+│ ├── bug-report-002.pdf
+│ └── bug-report-003.pdf
+│
+├── sql-queries/
+│ └── validation-queries.sql
+│
+└── evidence/
+├── screenshots/
+└── videos/
+
 ---
 
 ## 📝 Test Case Example
@@ -59,3 +81,20 @@ SELECT user_id, route_id, created_at
 FROM routes
 WHERE user_id = 12345
 ORDER BY created_at DESC;
+
+📚 Tools Used
+
+Jira
+
+Excel / Google Sheets
+
+Chrome DevTools
+
+SQL Console
+
+Figma
+
+👩‍💻 Author
+
+Anyelly Natalia Flórez
+QA Engineer — Manual & Automation
